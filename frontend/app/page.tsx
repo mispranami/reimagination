@@ -9,6 +9,8 @@ import ExploreButton from '@/components/ExploreButton'
 import EsportsHub from '@/components/EsportsHub'
 import AboutSection from '@/components/AboutSection'
 import Footer from '@/components/Footer'
+import SkillShotArena from '@/components/SkillShotArena'
+import FruitSlasher from '@/components/FruitSlasher'
 
 interface Game {
   id: string
@@ -34,6 +36,8 @@ export default function Home() {
   return (
     <>
       {showIntro && <IntroSequence onComplete={() => setShowIntro(false)} />}
+      <SkillShotArena />
+      <FruitSlasher />
       <BackgroundVideo />
       <div className="noise-overlay" />
       <main className="relative min-h-screen bg-transparent" style={{ zIndex: 2 }}>

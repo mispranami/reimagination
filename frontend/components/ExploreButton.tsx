@@ -14,7 +14,7 @@ export default function ExploreButton() {
     <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-10">
       <motion.button
         onClick={handleClick}
-        className="px-12 py-4 bg-red-600 text-white font-bold text-lg tracking-wider relative overflow-hidden group"
+        className="px-12 py-4 bg-blue-600 text-white font-bold text-lg tracking-wider relative overflow-hidden group"
         style={{
           clipPath: 'polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px)'
         }}
