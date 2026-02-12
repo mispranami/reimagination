@@ -1,0 +1,31 @@
+{
+  "games": [
+    {
+      "id": "league-of-legends",
+      "name": "League of Legends",
+      "accentColor": "#0397AB",
+      "stats": {
+        "live_players": 2500000,
+        "current_tournament": "LCS Spring Split 2026"
+      }
+    },
+    {
+      "id": "valorant",
+      "name": "Valorant",
+      "accentColor": "#FF4655",
+      "stats": {
+        "live_players": 1800000,
+        "current_tournament": "VCT Masters 2026"
+      }
+    },
+    {
+      "id": "tft",
+      "name": "Teamfight Tactics",
+      "accentColor": "#8B5CF6",
+      "stats": {
+        "live_players": 950000,
+        "current_tournament": "TFT Championship Series"
+      }
+    }
+  ]
+}
